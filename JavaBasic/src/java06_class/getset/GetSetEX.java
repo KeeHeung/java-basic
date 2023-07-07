@@ -17,6 +17,15 @@ public class GetSetEX {
 		//Getter 호출
 		System.out.println( data.getNum() );
 		
+		//--------------------------------------------------
+		
+		data.setName("David");
+		System.out.println( data.getName() );
+		
+		
+		
+		
+		
 		
 	}
 }
