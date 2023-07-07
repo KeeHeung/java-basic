@@ -38,7 +38,18 @@ class Constructor_02 {
 public class ConstructorEX_02 {
 	public static void main(String[] args) {
 		
+		Constructor_02 cons01 = new Constructor_02(111, 222);
+		cons01.out();
 		
+		System.out.println("-----------------------");
+		
+		Constructor_02 cons02 = new Constructor_02(333);
+		cons02.out();
+		
+		System.out.println("-----------------------");
+		
+		Constructor_02 cons03 = new Constructor_02();
+		cons03.out();
 		
 		
 	}
