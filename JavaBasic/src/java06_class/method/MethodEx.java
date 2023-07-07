@@ -10,5 +10,12 @@ public class MethodEx {
 		//메소드 호출
 		m01.hello();
 		
+		System.out.println("-----------------");
+		
+		int result = m01.subtract(500, 600);
+		System.out.println("뺄셈 결과 : " + result);
+		
+		System.out.println("빼기 : " + m01.subtract(700, 500));
+		
 	}
 }
