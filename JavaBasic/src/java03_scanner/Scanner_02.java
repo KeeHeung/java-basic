@@ -20,8 +20,11 @@ public class Scanner_02 {
 		String str = in.nextLine();
 		
 		// 4. 입력받은 문자열 출력하기
-		System.out.print("입력된 문자열 : " + str);
+		System.out.println("입력된 문자열 : " + str);
 		
+		// 5. 메소드를 출력문에 직접 넣어 출력하기
+		System.out.print("문자열 입력 : ");
+		System.out.println("입력된 문자열 : " + in.nextLine());
 		
 		
 	}

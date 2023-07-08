@@ -33,7 +33,9 @@ public class Scanner_04 {
 		
 		System.out.print("Input : ");
 		String data = sc.nextLine();
-		
+		System.out.print("입력받은 문자열 : " + data);
+		System.out.println();
+		System.out.print("입력받은 데이터의 0번째 인덱스 : ");
 		System.out.println( data.charAt(0));
 		
 		//------------------------------------------------
