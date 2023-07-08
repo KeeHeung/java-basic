@@ -5,7 +5,7 @@ public class If_02 {
 		
 		int num = 10;
 		
-		if( num == 15 ) {
+		if( num == 15 ) { //num 변수에 현재 10이 들어있으므로, false이며 if문 안의 내용은 출력되지 않는다.
 			System.out.println("HI");
 		}
 		System.out.println("Hello");
@@ -28,8 +28,9 @@ public class If_02 {
 		//영향을 준다
 		
 		if( false ) 
-			System.out.println(11111);	//실행되지 않는다(중괄호가 없다면, 코드 1개만 인식한다)
-			System.out.println(22222);	//실행된다
+			System.out.println(11111);	//if문이 false 이므로 실행되지 않는다(중괄호가 없다면, 코드 1개만 인식한다)
+			System.out.println(22222);	//실행된다, 위의 if문은 {}중괄호가 없기때문에 윗줄에서 if문은 끝났다
+			System.out.println(33333);	//실행된다
 		
 		System.out.println("------------");
 		

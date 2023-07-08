@@ -55,11 +55,16 @@ public class JavaReview_Scanner_TEST {
 		System.out.println();	// 한줄 띄우기
 		
 		System.out.println("===== 출력 =====");
-		System.out.print("이름\t"+"나이\t"+"성별\t"+"국어\t"+"영어\t"+"수학\t"+"총점\t"+"평균\n");
-		System.out.println(name +"\t"+ age +"\t"+ gender +"\t"+ kor +"\t"+ eng +"\t"+ math +"\t"+ tot +"\t"+ avg);
-		
-		
-		
+		System.out.print("이름\t나이\t성별\t국어\t영어\t+수학\t총점\t평균\n");
+		System.out.print(name +"\t");
+		System.out.print(age +"\t");
+		System.out.print(gender +"\t");
+		System.out.print(kor +"\t");
+		System.out.print(eng +"\t");
+		System.out.print(math +"\t");
+		System.out.print(tot +"\t");
+//		System.out.println( String.format("%.2f", avg) );
+		System.out.printf("%.3f\n",avg);	//위의 String.format 메소드를 printf메소드로 대체 사용, \n을 추가해줌
 		
 	}
 

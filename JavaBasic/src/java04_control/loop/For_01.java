@@ -29,7 +29,7 @@ public class For_01 {
 		
 		int i;	//반복(iterate) 조절에 사용될 변수
 		
-		for( i=0; i<5; i++ ) {
+		for( i=0; i<5; i++ ) { //i, 0~4, x5
 			System.out.println("Hi : " + i);
 		}
 		

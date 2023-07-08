@@ -1,9 +1,14 @@
 package java04_control.condition;
 
+import java.util.Scanner;
+
 public class IfElse_03 {
 	public static void main(String[] args) {
 		
-		int num = 44;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("숫자 입력 >> ");
+		int num = sc.nextInt();
 		
 		if( num>0 && num<=100 ) {
 			System.out.println("num은 1~100사이의 정수");
