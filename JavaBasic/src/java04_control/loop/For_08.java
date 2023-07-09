@@ -19,8 +19,5 @@ public class For_08 {
 			System.out.println("짝수 : " + i);
 		}
 		
-		
-		
-		
 	}
 }

@@ -63,7 +63,7 @@ public class StarQuiz {
 		for( int i=0; i<4; i++ ) { 
 			
 			for( int j=0; j< 4-i-1; j++) { 
-				System.out.print(" ");
+				System.out.print("&");
 			}
 			for( int j=0; j< 2*i+1; j++) { 
 				System.out.print("*");
@@ -72,6 +72,8 @@ public class StarQuiz {
 			System.out.println();
 		}		
 		System.out.println("--------------");
+		
+//		*개수를 원하는 만큼 찍기		
 		
 		final int LINE = 9;
 		

@@ -21,5 +21,7 @@ public class JavaReview_ForQuiz_01 {
 		// sum은 반복될때마다 sum끼리 더해준다.(sum = sum + i) <- 이때 i는 반복할때마다 축적된 데이터가 1씩 증가하는중
 											//-> sum += i 
 		
+		
+		
 	}
 }
