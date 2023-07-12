@@ -1,7 +1,7 @@
-package java07_inherit.controller;
+package java07_inherit.practice.controller;
 
-import java07_inherit.model.Circle;
-import java07_inherit.model.Rectangle;
+import java07_inherit.practice.model.Circle;
+import java07_inherit.practice.model.Rectangle;
 
 public class Main {
 	public static void main(String[] args) {

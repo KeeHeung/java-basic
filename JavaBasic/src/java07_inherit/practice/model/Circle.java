@@ -1,4 +1,4 @@
-package java07_inherit.model;
+package java07_inherit.practice.model;
 
 public class Circle extends Point {
 	
