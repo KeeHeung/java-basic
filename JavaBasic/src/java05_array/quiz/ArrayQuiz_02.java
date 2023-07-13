@@ -1,5 +1,7 @@
 package java05_array.quiz;
 
+import java.util.Arrays;
+
 public class ArrayQuiz_02 {
 	public static void main(String[] args) {
 		
@@ -14,11 +16,11 @@ public class ArrayQuiz_02 {
 		 
 		 for (int i=0; i<arr.length; i++) {
 			 invert_arr[i] = arr.length-i;
-			 System.out.print(arr[i]);
+			 System.out.print(arr[i] + " ");
 		 }
 		 
 //		 System.out.println(arr[i]);
-		 System.out.println(invert_arr);
+//		 System.out.println();
 		 
 		 
 		 
@@ -27,14 +29,14 @@ public class ArrayQuiz_02 {
 		 
 		 
 		 
-//		 int[] invert_arr = new int[10];
-//		 
-//		 for (int i = arr.length - 1, j = 0; i >= 0; i--, j++) {
-//	            invert_arr[j] = arr[i];
-//	        }
-//		 
-//		 System.out.println(Arrays.toString(arr));
-//		 System.out.println(Arrays.toString(invert_arr));
+		 int[] invert_arr1 = new int[10]; 
+		 
+		 for (int i = arr.length - 1, j = 0; i >= 0; i--, j++) {
+	            invert_arr1[j] = arr[i];
+	        }
+		 
+		 System.out.println(Arrays.toString(arr));
+		 System.out.println(Arrays.toString(invert_arr1));
 
 		 
 //

@@ -24,7 +24,7 @@ public class JavaReview_Binary01 {
 		
 		String stringNum = "123";
 		int intNum = Integer.parseInt(stringNum);						//문자열자료형의 데이터값을 정수형자료형으로 분석해주는 클래스
-		System.out.println("Integer.parseInt.테스트 : " + intNum+1);	//"123"문자열을 123(int)로 변환후 더하기를 통해 TEST
+		System.out.println("Integer.parseInt.테스트 : " + intNum + 123);	//"123"문자열을 123(int)로 변환후 더하기를 통해 TEST
 		
 		int testInt  =  321;
 		String stringNum1 = String.valueOf(testInt);					//정수자료형의 데이터값을 문자열자료형으로 분석해주는 클래스

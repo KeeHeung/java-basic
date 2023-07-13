@@ -45,22 +45,12 @@ public class ProductEx {
 		
 		System.out.println(count+"개 물건 구입");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
 		System.out.println("---Person------------");
 		Person p = new Person("Alice", 2000);
-		
 		p.buy( new Tv("LG", 500) );
 		p.buy( new Computer("i5", 1000) );
 		p.buy( new Tv("Pavv", 700) );
