@@ -11,12 +11,14 @@ public class JavaReview_Binary01 {
 		ArrayList<Integer> intList = new ArrayList<Integer>();
 		intList.add(1);
 		intList.add(2);
+		System.out.println(intList);
 		System.out.println(intList.get(1));
 		System.out.println(intList.get(0));
 		
 		ArrayList<String> stringList = new ArrayList<String>();
 		stringList.add("테스트");
 		stringList.add("TEST");
+		System.out.println(stringList);
 		System.out.println(stringList.get(1));
 		System.out.println(stringList.get(0));
 		
