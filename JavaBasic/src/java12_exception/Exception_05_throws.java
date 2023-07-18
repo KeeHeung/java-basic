@@ -1,5 +1,24 @@
 package java12_exception;
 
+
+class ThrowsTest{
+	
+	public void method() throws RuntimeException {
+		//예외 발생
+		throw new RuntimeException();
+
+	}
+
+	public void method2() throws Exception {
+		
+		//Checked 예외 발생
+		throw new Exception();
+		
+	}	
+	
+}
+
+
 public class Exception_05_throws {
 	public static void main(String[] args) {
 		
@@ -15,9 +34,36 @@ public class Exception_05_throws {
 		
 		//-----------------------------------------------
 		
+		ThrowsTest tt = new ThrowsTest();
 		
 		
+		//Unchecked 예외 throw 처리
+		try {
+			tt.method();
+		} catch (RuntimeException e) {
+			System.out.println("예외처리!");
+		}
+		
+		
+		//Checked 예외 throws 처리
+		try {
+			tt.method2();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
