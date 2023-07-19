@@ -10,7 +10,7 @@ public class BreakContinue {
 			System.out.println("HI");
 			
 			//에러, 반복문이나 switch없이 break를 사용할 수 없다
-//			break;
+//			break;		// 제어문 탈출, 아래의 HELLO는 출력되지 않고 if문을 탈출한다
 			
 			System.out.println("HELLO");
 		}
@@ -21,7 +21,7 @@ public class BreakContinue {
 			System.out.println( i );
 			
 			if( i>=5) {
-				break; //for문 중단
+				break; //for문 중단, i는 99까지 출력되야 하지만 break를 만나 for문 탈출
 			}
 			
 		}
@@ -35,6 +35,7 @@ public class BreakContinue {
 			
 			for(int j=0; j<5; j++) { //j, 0~4, x5
 				
+				System.out.println("i:"+i+", j:"+j);
 				
 				if( i>=2 ) {
 					break;
@@ -43,11 +44,11 @@ public class BreakContinue {
 //					break;
 //				}
 				
-				System.out.println("i:"+i+", j:"+j);
+//				System.out.println("i:"+i+", j:"+j);
 				
 			}
 			
-			System.out.println();
+//			System.out.println();
 			
 		}
 		

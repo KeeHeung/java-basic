@@ -1,8 +1,13 @@
-package java04_control.loop;
+//패키지
+package java00_javaReview;
 
-public class DoWhile_02 {
+//입력객체 
+import java.util.Scanner;
+
+//클래스
+public class JavaReview_DoWhileQuiz_2 {
+	//메인 메소드
 	public static void main(String[] args) {
-		
 		//DoWhile 사용 예시
 		
 //		do {
@@ -20,14 +25,6 @@ public class DoWhile_02 {
 		
 		//---------------------------------------------------------------------------
 		
-		int i = 0;	//초기식
-		
-		do {
-			System.out.println(i); //수행 코드
-			
-			i++;	//증감식
-			
-		} while( i<5 ); //조건식
 		
 		
 		
@@ -35,5 +32,37 @@ public class DoWhile_02 {
 		
 		
 		
-	}
-}
+		
+		
+	} //Main메소드 종료
+} // 클래스 종료
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

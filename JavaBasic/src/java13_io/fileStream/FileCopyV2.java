@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import javax.print.attribute.standard.Destination;
 
-public class FileCopy {
+public class FileCopyV2 {
 	public static void main(String[] args) {
 		
 		//	Quiz.
@@ -38,12 +38,7 @@ public class FileCopy {
 		
 //		//최종 데이터 저장소
 //		StringBuilder sb = new StringBuilder();
-		
-		//파일 입력 스트림 객체 변수
-		FileInputStream in = null;
-		//파일 출력 스트림 객체 변수
-		FileOutputStream out = null;
-		
+
 		
 		
 		//in 스트림에서 더 이상 읽어들일 데이터가 없을 때
@@ -51,11 +46,11 @@ public class FileCopy {
 		//	-> End of Stream
 		//	-> End of File
 		//	-> EOF
-		try {
-			//파일 입력 스트림 생성(Source.txt)
-			in = new FileInputStream(quizfile);
-			//파일 출력 스트림 생성(Destination.txt)
-			out = new FileOutputStream(quizfile2);			
+		
+		//파일 입력,출력 스트림 객체 변수선언과 객체 생성
+		try (	FileInputStream in  = new FileInputStream(quizfile);
+				FileOutputStream out = new FileOutputStream(quizfile2);	){
+
 			
 			//읽어들일 데이터가 존재하면 반복 처리
 			//입력스트림 처리
@@ -81,20 +76,22 @@ public class FileCopy {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-		} finally {
-			try {
-				//출력스트림 닫기
-				if(out!=null)	out.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			try {
-				//입력스트림 닫기
-				if(in!=null)	in.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
 		}
+		
+//		} finally {
+//			try {
+//				//출력스트림 닫기
+//				if(out!=null)	out.close();
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//			try {
+//				//입력스트림 닫기
+//				if(in!=null)	in.close();
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//		}
 		
 		//총 입출력된 데이터의 길이(크기)
 		System.out.println();
